@@ -20,7 +20,6 @@ import {
   cieYellowAnalogous,
 } from "../sharedStyles";
 import { boxy } from "../Box";
-import Link from "next/link"
 
 import React from "react";
 
@@ -106,15 +105,3 @@ StyledApplyLink.defaultProps = {
   alignItems: "center",
 
 };
-
-export const ApplyLink = (props) => {
-  const { children, href, ...otherProps } = props;
-  return (
-    <Link href={href} passHref>
-      <StyledApplyLink {...otherProps}>
-        <p>{children}</p>
-      </StyledApplyLink>
-    </Link>
-  );
-};
-
