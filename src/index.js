@@ -1,11 +1,3 @@
-import { Button } from "./UtilComponents/Button";
-import { Box } from "./UtilComponents/Box"
-
-export {
-  Box,
-  Button,
-  lib,
-}
-
-
-export * from "./"
+export { Button } from "./UtilComponents/Button";
+export { Box } from "./UtilComponents/Box";
+export { Window } from "./UtilComponents/Window";
