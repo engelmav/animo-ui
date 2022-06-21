@@ -1,5 +1,9 @@
 import { Button } from "./UtilComponents/Button";
+import { Box } from "./UtilComponents/Box"
+import * as lib from "."
 
 export {
-  Button
+  Box,
+  Button,
+  lib,
 }
